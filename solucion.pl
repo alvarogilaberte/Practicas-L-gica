@@ -31,8 +31,8 @@ proof(ejercicio01,
 proof(ejercicio02,
       [
            'Premisa'(1),
-           'I' no no p (1),
-           'E' p (2)
+           'I' ! (1),
+           'E' ! (2)
       ]).
 
 
