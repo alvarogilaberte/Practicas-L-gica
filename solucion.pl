@@ -35,6 +35,18 @@ proof(ejercicio02,
            'E' ! (2)
       ]).
 
+proof(ejercicio03,
+      [
+           'Premisa'(1),
+           'Premisa'(2),
+           'Supuesto'(p and q),
+           'E' --> (1,3),
+           'I' and (2,4),
+           'I' --> (3,5),
+           'I' ! (6)
+      ]).
+           
+
 
 % Incluir el resto de demostraciones
 
