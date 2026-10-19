@@ -6,11 +6,11 @@
 %
 %  Representa un alumno de la asignatura.
 %
-%  @param +Nombre: Nombre completo del alumno.
-%  @param +Correo: Correo electrónico institucional.
-%  @param +Grado:  Grado del alumno (Ciber | IA).
+%  @param +Nombre: Álvaro Gilaberte Burgos
+%  @param +Correo: a.gilaberte.2026@alumnos.urjc.es
+%  @param +Grado:  IA
 
-alumno('Joan Clarke', 'j.clarke.2026@alumnos.urjc.es', 'Ciber').
+alumno('Álvaro Gilaberte Burgos', 'a.gilaberte.2026@alumnos.urjc.es', 'IA').
 
 %% Ejemplo alumno de IA
 % alumno('John McCarthy', 'j.mccarthy.2026@alumnos.urjc.es', 'IA').
@@ -30,7 +30,9 @@ proof(ejercicio01,
 
 proof(ejercicio02,
       [
-          % Completar con la demostración
+           'Premisa'(1),
+           'I' no no p (1),
+           'E' p (2)
       ]).
 
 
