@@ -37,37 +37,51 @@ proof(ejercicio02,
 
 proof(ejercicio03,
       [
-           'Premisa'(1),
-           'Premisa'(2),
-           'Supuesto'(p and q),
-           'E' --> (1,3),
-           'I' and (2,4),
-           'I' --> (3,5),
-           'I' ! (6)
+     proof(ejercicio03,
+      [
+        'Premisa'(1),
+        'Premisa'(2),
+        'Supuesto'(p and q),
+        'E' --> (1,3),
+        'I' and (4,2),
+        'I' --> (3,5),
+        'I' ! (6),
+        'DM'(7)
       ]).
 
 proof(ejercicio04,
       [
-            'Premisa'(1),
-            'Premisa'(2),
-            'Premisa'(3),
-            'Premisa'(4),
-            'MT'(2,4),
-            'Corte'(1,5),
-            'E' --> (2,6)
+        'Premisa'(1),              
+        'Premisa'(2),               
+        'Premisa'(3),                 
+        'Premisa'(4),                
+        'Supuesto'(p),                 
+        'E' --> (2,5),                 
+        'I' and (6,4),               
+        'I' --> (5,7),                
+        'I' ! (8),                     
+        'Supuesto'(p),                
+        'Supuesto'(!s),                
+        'I' and (10,9),               
+        'I' --> (11,12),               
+        'I' ! (13),                   
+        'E' ! (14),                    
+        'I' --> (10,15),               
+        'E' or (1,16,3)                
       ]).
-
+      
 proof(ejercicio05,
       [
-            'Premisa'(1),
-            'Premisa'(2),
-            'Premisa'(3),
-            'Supuesto'(p),
-            'E' --> (1,4),
-            'I' and (2,3),
-            'I' and (5,6),
-            'I' --> (4,7),
-            'I' ! (8)
+        'Premisa'(1),
+        'Premisa'(2),
+        'Premisa'(3),
+        'Supuesto'(p),
+        'E' --> (1,4),
+        'I' and (2,3),
+        'DMO'(6),
+        'I' and (5,7),
+        'I' --> (4,8),
+        'I' ! (9)
       ]).
 
       
