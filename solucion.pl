@@ -51,6 +51,17 @@ proof(ejercicio04,
             'Premisa'(1),
             'Premisa'(2),
             'Premisa'(3),
+            'Premisa'(4),
+            'MT'(2,4),
+            'Corte'(1,5),
+            'E' --> (2,6)
+      ]).
+
+proof(ejercicio05,
+      [
+            'Premisa'(1),
+            'Premisa'(2),
+            'Premisa'(3),
             'Supuesto'(p),
             'E' --> (1,4),
             'I' and (2,3),
