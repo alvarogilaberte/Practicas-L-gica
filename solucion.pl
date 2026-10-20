@@ -45,6 +45,21 @@ proof(ejercicio03,
            'I' --> (3,5),
            'I' ! (6)
       ]).
+
+proof(ejercicio04,
+      [
+            'Premisa'(1),
+            'Premisa'(2),
+            'Premisa'(3),
+            'Supuesto'(p),
+            'E' --> (1,4),
+            'I' and (2,3),
+            'I' and (5,6),
+            'I' --> (4,7),
+            'I' ! (8)
+      ]).
+
+      
            
 
 
