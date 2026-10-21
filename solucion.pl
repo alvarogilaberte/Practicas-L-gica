@@ -196,7 +196,7 @@ proof(ejercicio09,
 
 proof(ejercicio10,
       [
-          'Premisa'(1),
+      'Premisa'(1),
           'Premisa'(2),
           'Premisa'(3),
           'Premisa'(4),
@@ -252,9 +252,11 @@ proof(ejercicio10,
           'I' --> (34,53),
           'I' ! (54),
           'I' and (33,55),
-          'I' or a(56,!q),
-          'I' --> (26,57),
-          'E' or (1,25,58)
+          'I' or a(55,!q),
+          'I' and (33,57),
+          'I' --> (7,58),
+          'I' --> (26,58),
+          'E' or (1,59,60)
       ]).       
 
 
