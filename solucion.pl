@@ -196,8 +196,6 @@ proof(ejercicio09,
 
 proof(ejercicio10,
       [
-     proof(ejercicio10,
-      [
           'Premisa'(1),
           'Premisa'(2),
           'Premisa'(3),
